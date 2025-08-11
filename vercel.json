@@ -10,7 +10,7 @@
       {
         "src": "/(.*)",
         "dest": "src/main.ts",
-        "methods": ["GET", "POST", "OPTIONS"],
+        "methods": ["GET", "POST", "OPTIONS", "HEAD"],
         "headers": {
           "Access-Control-Allow-Origin": "*"
         }
